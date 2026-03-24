@@ -44,6 +44,7 @@ int main()
     vector<int> :: iterator ed = s.end() ; // this will point index right after last element , so to access last element u have to use ed--
     cout << v.back() << endl; // bascially it will print last element
     //datatype automatically assign in auto
+    
     for(auto i : s) // auto is same as like vector<int> :: iterator
     {
         cout << i << endl;
