@@ -50,7 +50,17 @@ int main()
         cout << i << endl;
     }
     
+    //To erase multiple element
+    v.erase(v.begin()+1);
+    v.insert(v.begin(),201);
+    v.pop_back();
+    v.clear();
+    v.empty(); // bascially this checks whether a vector is empty or not
 
+    queue<int> a ;
+    priority_queue<int> pq;
+    deque<int> dq;
+    
 
 
 
